@@ -4,8 +4,15 @@
 <meta charset="utf-8">
 <title>My Portfolio</title>
 <link href="CSS/style.css" rel="stylesheet" type="text/css">
+<style>
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+</style>
 </head>
-<div id="grad1"></div>
+
 <body>
 	<H1>Name & Surname Portfolio</H1>
 	<h2>Proposal</h2>
@@ -14,5 +21,6 @@
 	<p>embed code here</p>
 	<h2>Outcome</h2>
 	<p>embed code here</p>
+	<div id="grad1"></div>
 </body>
 </html>
