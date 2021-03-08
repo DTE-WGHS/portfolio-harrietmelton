@@ -5,6 +5,5 @@ body {
 }
 #grad1 {
   height: 200px;
-  background-color: red; /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom right, #1d41f5, #72f7c0);
 }
