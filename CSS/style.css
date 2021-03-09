@@ -5,3 +5,8 @@
   background-color: red; /* For browsers that do not support gradients */
   background-image: linear-gradient(#171eeb, #38ff81);
 }
+
+h1 {
+  color: white;
+  font-size: 40px;
+}
